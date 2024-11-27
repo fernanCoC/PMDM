@@ -1,0 +1,36 @@
+en el activity_main -> creas un spinner
+antes se crea el array en string.xml->que esta en values
+
+lis<MArca>
+adaptador -> arrayadapter
+1. contexto-> todo lo que engloba lo anterior
+2.layout
+3.lista
+
+para que sirve adaptador
+cuando le pinche que aparezca la foto de cada respectiva marca 
+
+--------------------------o--------------------------------
+1-creo el aspecto de la fila
+2- creo adaptador:base adapter
+
+en el getView -> saco el xml
+
+
+
+------------------------------------------------------------------------
+DI- conexión con una base de datos
+
+CONNECTION
+- statement
+- preparestatement
+- resulset 
+
+en el prepare statement se pasa una query
+Para llevar los datos del otro controlador a otro diferente
+1- en el origen de la comunicacion obtengo el destino de la comunicación
+2- en el destino de la comunicación creo una variable (según lo que me pida) y un método para obtener los datos
+3- LLamo al método creado en el paso 2 desde el origen de la comunicacion
+
+
+

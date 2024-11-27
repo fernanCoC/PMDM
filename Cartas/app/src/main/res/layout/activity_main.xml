@@ -1,0 +1,33 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_cartas">
+
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="382dp"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="282dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:drawable/editbox_background"
+        android:gravity="center"
+        android:hint="Introduce tu nombre"
+
+        android:padding="10dp"
+
+         />
+
+    <Button
+        android:id="@+id/btnEmpezar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameEditText"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp"
+        android:text="Comenzar"
+        android:textColor="#FFFFFF"
+        />
+</RelativeLayout>
