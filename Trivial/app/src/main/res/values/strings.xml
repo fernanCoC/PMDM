@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TrivialTarea</string>
+    <string-array name="dificultad_level">
+        <item>Facil</item>
+        <item>Medio</item>
+        <item>Dificil</item>
+    </string-array>
+    <string name="cargarPreguntas">Cargando...</string>
+    <string name="errorPregunta">Error al cargar la pregunta</string>
+    <string name="logout">Cerrando sesion...</string>
+    <string name="infoUser">Informacion del usuario</string>
+</resources>
