@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="La Liga "
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/etCorreo"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:hint="Introduce tu correo"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/etPass"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:hint="Introduce tu contraseña"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/textoRegistro"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Aun no tienes cuenta? Registrate"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/btnAceptar"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceptar"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>

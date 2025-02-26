@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="35dp"
+        android:text="La Liga" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduce tu nombre"
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        android:id="@+id/etNombre" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduce tu correo"
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        android:id="@+id/etCorreo" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduce tu numero de telefono"
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        android:id="@+id/etTelefono" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduce tu contraseña"
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        android:id="@+id/etPass"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Repetir contraseña"
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        android:id="@+id/etRepetirPass" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:text="Aceptar"
+        android:id="@+id/btnAceptar" />
+
+
+
+
+
+
+</LinearLayout>

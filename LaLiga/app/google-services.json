@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "911073502161",
+    "project_id": "laliga-ce334",
+    "storage_bucket": "laliga-ce334.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911073502161:android:f1661271bb133d699936f0",
+        "android_client_info": {
+          "package_name": "com.example.laliga"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQsEqbCpuSBcswKWxSmiAWC053K7NX-ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
